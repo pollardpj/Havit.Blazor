@@ -21,7 +21,7 @@ public partial class HxProgressIndicator : IDisposable
 
 	/// <summary>
 	/// Returns application-wide defaults for the component.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual ProgressIndicatorSettings GetDefaults() => Defaults;
 
@@ -34,7 +34,7 @@ public partial class HxProgressIndicator : IDisposable
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual ProgressIndicatorSettings GetSettings() => this.Settings;
 
@@ -44,7 +44,7 @@ public partial class HxProgressIndicator : IDisposable
 	[Parameter] public bool InProgress { get; set; }
 
 	/// <summary>
-	/// Debounce delay in miliseconds. Default is <c>300 ms</c>.
+	/// Debounce delay in milliseconds. Default is <c>300 ms</c>.
 	/// </summary>
 	[Parameter] public int? Delay { get; set; }
 	protected int DelayEffective => this.Delay ?? GetSettings()?.Delay ?? GetDefaults()?.Delay ?? throw new InvalidOperationException(nameof(Delay) + " default for " + nameof(HxProgressIndicator) + " has to be set.");

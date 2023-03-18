@@ -29,7 +29,7 @@ public class GridInternalStateSortingItemHelperTests
 
 	/// <summary>
 	/// Verifies the new sorting column is "moved to the top position" when it is already in the currentSorting (and not on the top position).
-	/// Also verifies the ReverseDirection which shoult be false after the "move to the top position".
+	/// Also verifies the ReverseDirection which should be false after the "move to the top position".
 	/// </summary>
 	[TestMethod]
 	public void GridInternalStateSortingItemHelper_ApplyColumnToSorting_TakesColumnToTheFirstPosition()

@@ -34,7 +34,7 @@ public partial class HxCalendar
 
 	/// <summary>
 	/// Returns component defaults.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual CalendarSettings GetDefaults() => Defaults;
 
@@ -47,7 +47,7 @@ public partial class HxCalendar
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual CalendarSettings GetSettings() => this.Settings;
 

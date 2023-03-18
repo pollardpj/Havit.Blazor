@@ -114,7 +114,7 @@ public class HxDropdownToggleElement : ComponentBase, IHxDropdownToggle, IAsyncD
 	protected virtual string GetCssClass()
 	{
 		/*
-		 * Despite the name the .dropdown-toggle is the class which does nothing else than the caret (arrow ::after and no-wrap to prevent caret wraping).
+		 * Despite the name the .dropdown-toggle is the class which does nothing else than the caret (arrow ::after and no-wrap to prevent caret wrapping).
 		 * If it later turns out to be used for other reasons we will need to add the .dropdown-toggle-no-caret class to prevent the caret from being displayed.
 		 */
 		return CssClassHelper.Combine(

@@ -162,7 +162,7 @@ public partial class HxCollapse : IAsyncDisposable
 	/// </summary>
 	/// <remarks>
 	/// the shown-event gets raised as the "show" CSS class is added to the HTML element and the transition is completed
-	/// this covers both user-interaction (DOM state) and Blazor-interaction (HxAccordition.ExpandedItemId change)
+	/// this covers both user-interaction (DOM state) and Blazor-interaction (HxAccordion.ExpandedItemId change)
 	/// </remarks>
 	[JSInvokable("HxCollapse_HandleJsShown")]
 	public async Task HandleJsShown()

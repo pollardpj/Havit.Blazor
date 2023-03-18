@@ -11,7 +11,7 @@ public partial class HxListLayout<TFilterModel>
 {
 	/// <summary>
 	/// Returns <see cref="HxMessageBox"/> defaults.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual ListLayoutSettings GetDefaults() => HxListLayout.Defaults;
 
@@ -24,7 +24,7 @@ public partial class HxListLayout<TFilterModel>
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual ListLayoutSettings GetSettings() => this.Settings;
 

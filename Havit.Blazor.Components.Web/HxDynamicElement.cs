@@ -36,7 +36,7 @@ public class HxDynamicElement : ComponentBase
 	[Parameter] public ElementReference ElementRef { get; set; }
 
 	/// <summary>
-	/// Action (synchronnous, not an EventCallback) called when the element's reference got captured.
+	/// Action (synchronous, not an EventCallback) called when the element's reference got captured.
 	/// </summary>
 	[Parameter] public Action<ElementReference> ElementRefChanged { get; set; }
 

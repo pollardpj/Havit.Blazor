@@ -232,7 +232,7 @@
 				@{
 					GridFooterCellContext gridFooterCellContext = CreateGridFooterCellContext();
 					GridCellTemplate[] footerTemplates = columnsToRender.Select(column => column.GetFooterCellTemplate(gridFooterCellContext)).ToArray();
-					if (footerTemplates.Any(cellTemplate => cellTemplate.Template != null) // there must be a tempate
+					if (footerTemplates.Any(cellTemplate => cellTemplate.Template != null) // there must be a template
 						&& shouldRenderFooter)
 					{
 						<tfoot>

@@ -16,7 +16,7 @@ public class UploadCompletedEventArgs
 	public long TotalSize { get; set; }
 
 	/// <summary>
-	/// Files uploaded (event arguments of individual OnFileUploded events).
+	/// Files uploaded (event arguments of individual OnFileUploaded events).
 	/// </summary>
 	public IReadOnlyCollection<FileUploadedEventArgs> FilesUploaded { get; internal set; }
 }

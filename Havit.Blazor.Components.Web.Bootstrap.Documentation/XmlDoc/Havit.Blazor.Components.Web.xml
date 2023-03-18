@@ -307,7 +307,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.UploadCompletedEventArgs.FilesUploaded">
             <summary>
-            Files uploaded (event arguments of individual OnFileUploded events).
+            Files uploaded (event arguments of individual OnFileUploaded events).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.UploadProgressEventArgs">
@@ -582,7 +582,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.HxDynamicElement.ElementRefChanged">
             <summary>
-            Action (synchronnous, not an EventCallback) called when the element's reference got captured.
+            Action (synchronous, not an EventCallback) called when the element's reference got captured.
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.HxRedirectTo">

@@ -12,7 +12,7 @@ public partial class HxSearchBox<TItem> : IAsyncDisposable
 {
 	/// <summary>
 	/// Returns application-wide defaults for the component.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual SearchBoxSettings GetDefaults() => HxSearchBox.Defaults;
 
@@ -25,7 +25,7 @@ public partial class HxSearchBox<TItem> : IAsyncDisposable
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual SearchBoxSettings GetSettings() => this.Settings;
 
@@ -174,7 +174,7 @@ public partial class HxSearchBox<TItem> : IAsyncDisposable
 	protected int MinimumLengthEffective => this.MinimumLength ?? this.GetSettings()?.MinimumLength ?? GetDefaults().MinimumLength ?? throw new InvalidOperationException(nameof(MinimumLength) + " default for " + nameof(HxSearchBox) + " has to be set.");
 
 	/// <summary>
-	/// Debounce delay in miliseconds. Default is <c>300</c> ms.
+	/// Debounce delay in milliseconds. Default is <c>300</c> ms.
 	/// </summary>
 	[Parameter] public int? Delay { get; set; }
 	protected int DelayEffective => this.Delay ?? this.GetSettings()?.Delay ?? GetDefaults().Delay ?? throw new InvalidOperationException(nameof(Delay) + " default for " + nameof(HxSearchBox) + " has to be set.");
@@ -274,7 +274,7 @@ public partial class HxSearchBox<TItem> : IAsyncDisposable
 			return;
 		}
 
-		// Cancelation is performed in HandleTextQueryValueChanged method
+		// Cancellation is performed in HandleTextQueryValueChanged method
 		cancellationTokenSource?.Dispose();
 
 		cancellationTokenSource = new CancellationTokenSource();

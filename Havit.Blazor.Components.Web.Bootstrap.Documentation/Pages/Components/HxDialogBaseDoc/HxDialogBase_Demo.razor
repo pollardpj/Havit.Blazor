@@ -17,7 +17,7 @@
 		DialogResult<int> dialogResult = await customDialog.ShowAsync(); // shows the dialog and waits until the dialog is closed
 
 		successful = dialogResult.Successful;
-		diceNumber = dialogResult.Successful ? dialogResult.Value : null; // we cannot read dialogResult.Value when the result is noc sucecessful
+		diceNumber = dialogResult.Successful ? dialogResult.Value : null; // we cannot read dialogResult.Value when the result is not successful
 	}
 }
 

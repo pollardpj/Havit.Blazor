@@ -10,7 +10,7 @@ public abstract class HxInputTextBase : HxInputBaseWithInputGroups<string>, IInp
 {
 	/// <summary>
 	/// Return <see cref="HxInputText"/> defaults.
-	/// Enables to not share defaults in descandants with base classes.
+	/// Enables to not share defaults in descendants with base classes.
 	/// Enables to have multiple descendants which differs in the default values.
 	/// </summary>
 	protected override abstract InputTextSettings GetDefaults();
@@ -24,7 +24,7 @@ public abstract class HxInputTextBase : HxInputBaseWithInputGroups<string>, IInp
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected override InputTextSettings GetSettings() => this.Settings;
 
@@ -83,7 +83,7 @@ public abstract class HxInputTextBase : HxInputBaseWithInputGroups<string>, IInp
 		}
 
 		builder.AddEventStopPropagationAttribute(1005, "onclick", true);
-		builder.AddElementReferenceCapture(1006, elementReferece => InputElement = elementReferece);
+		builder.AddElementReferenceCapture(1006, elementReference => InputElement = elementReference);
 
 		builder.CloseElement();
 	}

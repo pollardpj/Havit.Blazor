@@ -12,7 +12,7 @@ public abstract class HxSelectBase<TValue, TItem> : HxInputBaseWithInputGroups<T
 {
 	/// <summary>
 	/// Return <see cref="HxSelect{TValue, TItem}"/> defaults.
-	/// Enables to not share defaults in descandants with base classes.
+	/// Enables to not share defaults in descendants with base classes.
 	/// Enables to have multiple descendants which differs in the default values.
 	/// </summary>
 	protected override SelectSettings GetDefaults() => HxSelect.Defaults;
@@ -28,7 +28,7 @@ public abstract class HxSelectBase<TValue, TItem> : HxInputBaseWithInputGroups<T
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected override SelectSettings GetSettings() => this.Settings;
 
@@ -150,7 +150,7 @@ public abstract class HxSelectBase<TValue, TItem> : HxInputBaseWithInputGroups<T
 		builder.AddAttribute(1001, "onchange", EventCallback.Factory.CreateBinder<string>(this, value => CurrentValueAsString = value, CurrentValueAsString));
 		builder.SetUpdatesAttributeName("value");
 		builder.AddEventStopPropagationAttribute(1002, "onclick", true);
-		builder.AddElementReferenceCapture(1003, elementReferece => InputElement = elementReferece);
+		builder.AddElementReferenceCapture(1003, elementReference => InputElement = elementReference);
 
 		if (itemsToRender != null)
 		{

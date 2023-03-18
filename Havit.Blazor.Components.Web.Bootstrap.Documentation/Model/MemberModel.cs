@@ -28,7 +28,7 @@ public abstract class MemberModel
 				comment = regex.Replace(comment, "</code>");
 			}
 
-			// <see cref=""/> + other <see> variantions
+			// <see cref=""/> + other <see> variations
 			{
 				Regex regex = new("<see");
 				comment = regex.Replace(comment, "<a");
@@ -48,7 +48,7 @@ public abstract class MemberModel
 					link = PrepareLinkForFullLinkGeneration(link);
 					string[] splitLink = link.Split('.');
 
-					regex = new("cref=\"([A-Za-z\\.:`\\d])+\" ?/>"); // find this part of the element (beggining already replaced): cref="P:System.Text.Regex.Property" />
+					regex = new("cref=\"([A-Za-z\\.:`\\d])+\" ?/>"); // find this part of the element (beginning already replaced): cref="P:System.Text.Regex.Property" />
 					comment = regex.Replace(comment, GenerateFullLink(splitLink, link), 1); // replace the above with a generated link to the documentation
 				}
 			}

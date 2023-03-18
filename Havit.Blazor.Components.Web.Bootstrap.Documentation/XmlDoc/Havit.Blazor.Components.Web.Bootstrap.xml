@@ -126,7 +126,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAlert.Dismissible">
             <summary>
-            Shows the Close button and allows dissmissing of the alert.
+            Shows the Close button and allows dismissing of the alert.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAlert.CssClass">
@@ -183,7 +183,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxBadge.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxBadge.Settings">
@@ -196,7 +196,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxBadge.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxBadge.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxBadge.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxBadge.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxBadge.Color">
@@ -315,7 +315,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxButton.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.Settings">
@@ -328,7 +328,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxButton.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxButton.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.Text">
@@ -445,12 +445,12 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.OnClickStopPropagation">
             <summary>
-            Stop onClick-event propagation. Deafult is <c>true</c>.
+            Stop onClick-event propagation. Default is <c>true</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.OnClickPreventDefault">
             <summary>
-            Prevents the default action for the onclick event. Deafult is <c>false</c>.
+            Prevents the default action for the onclick event. Default is <c>false</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxButton.Spinner">
@@ -549,7 +549,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCloseButton.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.HxSubmit">
@@ -572,7 +572,7 @@
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.CalendarDateCustomizationRequest.Target">
             <summary>
             Who is asking for a customization, where the customization will be applied.
-            Allows distinquishing From and To inputs in <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange"/>.
+            Allows distinguishing From and To inputs in <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange"/>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.CalendarDateCustomizationRequest.Date">
@@ -599,7 +599,7 @@
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.CalendarDateCustomizationTarget">
             <summary>
             Indicates date in which calendar is to be customized.
-            Allows distinquishing From and To inputs in <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange"/>.
+            Allows distinguishing From and To inputs in <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange"/>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.CalendarDateCustomizationTarget.Calendar">
@@ -666,7 +666,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.GetDefaults">
             <summary>
             Returns component defaults.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.Settings">
@@ -679,7 +679,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxCalendar.Value">
@@ -785,7 +785,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCard.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxCard.Settings">
@@ -798,7 +798,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxCard.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxCard.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxCard.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxCard.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxCard.ImageSrc">
@@ -1065,7 +1065,7 @@
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCarousel.SlideToAsync(System.Int32)">
             <summary>
-            Slides to an element with the coresponding index.
+            Slides to an element with the corresponding index.
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCarousel.SlideToPreviousItemAsync">
@@ -1147,7 +1147,7 @@
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.HxChipList">
             <summary>
             Presents a list of chips as badges.<br/>
-            Usualy being used to present filter-criteria gathered by <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxFilterForm`1"/>.<br />
+            Usually being used to present filter-criteria gathered by <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxFilterForm`1"/>.<br />
             Full documentation and demos: <see href="https://havit.blazor.eu/components/HxChipList">https://havit.blazor.eu/components/HxChipList</see>
             </summary>
         </member>
@@ -1159,7 +1159,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxChipList.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxChipList.Settings">
@@ -1172,7 +1172,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxChipList.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxChipList.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxChipList.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxChipList.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxChipList.Chips">
@@ -1320,7 +1320,7 @@
             </summary>
             <remarks>
             the shown-event gets raised as the "show" CSS class is added to the HTML element and the transition is completed
-            this covers both user-interaction (DOM state) and Blazor-interaction (HxAccordition.ExpandedItemId change)
+            this covers both user-interaction (DOM state) and Blazor-interaction (HxAccordion.ExpandedItemId change)
             </remarks>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxCollapse.HandleJsHide">
@@ -1401,7 +1401,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.ContextMenuSettings.Icon">
             <summary>
-            Icon carring the menu (use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.BootstrapIcon" /> or any other <see cref="T:Havit.Blazor.Components.Web.IconBase"/>).<br />
+            Icon carrying the menu (use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.BootstrapIcon" /> or any other <see cref="T:Havit.Blazor.Components.Web.IconBase"/>).<br />
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.ContextMenuSettings.IconCssClass">
@@ -1423,7 +1423,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.Settings">
@@ -1436,7 +1436,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Simmilar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.CssClass">
@@ -1456,7 +1456,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenu.Icon">
             <summary>
-            Icon carring the menu (use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.BootstrapIcon" /> or any other <see cref="T:Havit.Blazor.Components.Web.IconBase"/>).<br />
+            Icon carrying the menu (use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.BootstrapIcon" /> or any other <see cref="T:Havit.Blazor.Components.Web.IconBase"/>).<br />
             Default is <see cref="P:Havit.Blazor.Components.Web.Bootstrap.BootstrapIcon.ThreeDotsVertical"/>.
             </summary>
         </member>
@@ -1518,7 +1518,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenuItem.OnClickStopPropagation">
             <summary>
-            Stop onClick-event propagation. Deafult is <c>true</c>.
+            Stop onClick-event propagation. Default is <c>true</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxContextMenuItem.FormState">
@@ -1925,7 +1925,7 @@
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.IDropdownContainer">
             <summary>
-            Helps keeping some properties/methods hidden from regular API (accesible via interface).
+            Helps keeping some properties/methods hidden from regular API (accessible via interface).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.IHxDropdownToggle">
@@ -1947,7 +1947,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.Settings">
@@ -1960,7 +1960,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputFile.UploadUrl">
@@ -2306,7 +2306,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.AutosuggestSettings.Delay">
             <summary>
-            Debounce delay in miliseconds.
+            Debounce delay in milliseconds.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.AutosuggestSettings.InputSize">
@@ -2326,7 +2326,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.Settings">
@@ -2339,7 +2339,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.DataProvider">
@@ -2387,7 +2387,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.Delay">
             <summary>
-            Debounce delay in miliseconds.
+            Debounce delay in milliseconds.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxAutosuggest`2.Placeholder">
@@ -2511,7 +2511,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.Internal.HxAutosuggestInternal`2.DelayEffective">
             <summary>
-            Debounce delay in miliseconds. Default is <c>300 ms</c>.
+            Debounce delay in milliseconds. Default is <c>300 ms</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.Internal.HxAutosuggestInternal`2.DropdownOffset">
@@ -2702,7 +2702,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.Internal.IFormValueComponent.LabelFor">
             <summary>
-            Element id to render as label for attibute.
+            Element id to render as label for attribute.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.Internal.IFormValueComponent.LabelCssClass">
@@ -3001,13 +3001,13 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.Internal.HxTooltipInternalBase.GetDefaults"/>, enables defining wider Settings in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.Internal.HxTooltipInternalBase.GetDefaults"/>, enables defining wider Settings in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.Internal.HxTooltipInternalBase.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.Internal.HxTooltipInternalBase.Html">
@@ -3350,7 +3350,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.Settings">
@@ -3363,7 +3363,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxFormValue.CssClass">
@@ -3441,7 +3441,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1.GetDefaults">
             <summary>
             Return <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1"/> defaults.
-            Enables to not share defaults in descandants with base classes.
+            Enables to not share defaults in descendants with base classes.
             Enables to have multiple descendants which differs in the default values.
             </summary>
         </member>
@@ -3576,7 +3576,7 @@
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1.EnsureCascadingEditContext">
             <summary>
-            When there is no EditContext cascading parameter, lets create a new one and assing it to CascadedEditContext private property in a base InputBase class.
+            When there is no EditContext cascading parameter, lets create a new one and passing it to CascadedEditContext private property in a base InputBase class.
             </summary>
             <remarks>
             Even there is a protected EditContext property we cannot assign a value. When doing so InvalidOperationException exception is thrown.
@@ -3585,9 +3585,9 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1.RenderWithAutoCreatedEditContextAsCascandingValue(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder,System.Int32,Microsoft.AspNetCore.Components.RenderFragment)">
+        <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputBase`1.RenderWithAutoCreatedEditContextAsCascadingValue(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder,System.Int32,Microsoft.AspNetCore.Components.RenderFragment)">
             <summary>
-            When EditContext was automaticly created, this method renders CascandingValue component with this EditContext and the content of the renderFrament.
+            When EditContext was automatically created, this method renders CascadingValue component with this EditContext and the content of the renderFragment.
             Otherwise only renderFragment is rendered.
             </summary>
         </member>
@@ -3756,7 +3756,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.Settings">
@@ -3769,7 +3769,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDate`1.ShowPredefinedDates">
@@ -3886,7 +3886,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.Settings">
@@ -3899,7 +3899,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputDateRange.ShowPredefinedDateRanges">
@@ -3979,7 +3979,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.Settings">
@@ -3992,7 +3992,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputNumber`1.ParsingErrorMessage">
@@ -4103,7 +4103,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputRange`1.GetDefaults">
             <summary>
             Returns <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputRange"/> defaults.
-            Enables to not share defaults in descandants with base classes.
+            Enables to not share defaults in descendants with base classes.
             Enables to have multiple descendants which differs in the default values.
             </summary>
         </member>
@@ -4169,7 +4169,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputText.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputText.Type">
@@ -4204,7 +4204,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.GetDefaults">
             <summary>
             Return <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxInputText"/> defaults.
-            Enables to not share defaults in descandants with base classes.
+            Enables to not share defaults in descendants with base classes.
             Enables to have multiple descendants which differs in the default values.
             </summary>
         </member>
@@ -4218,7 +4218,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTextBase.MaxLength">
@@ -4279,7 +4279,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.GetDefaults">
             <summary>
             Return <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2"/> defaults.
-            Enables to not share defaults in descandants with base classes.
+            Enables to not share defaults in descendants with base classes.
             Enables to have multiple descendants which differs in the default values.
             </summary>
         </member>
@@ -4293,7 +4293,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxMultiSelect`2.InputSize">
@@ -4642,7 +4642,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.GetDefaults">
             <summary>
             Return <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxSelect`2"/> defaults.
-            Enables to not share defaults in descandants with base classes.
+            Enables to not share defaults in descendants with base classes.
             Enables to have multiple descendants which differs in the default values.
             </summary>
         </member>
@@ -4656,7 +4656,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxSelectBase`2.InputSize">
@@ -5038,7 +5038,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.Settings">
@@ -5051,7 +5051,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.DataProvider">
@@ -5193,7 +5193,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.Delay">
             <summary>
-            Debounce delay in miliseconds. Default is <c>300</c> ms.
+            Debounce delay in milliseconds. Default is <c>300</c> ms.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxSearchBox`1.AllowTextQuery">
@@ -5292,7 +5292,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.SearchBoxSettings.Delay">
             <summary>
-            Debounce delay in miliseconds.
+            Debounce delay in milliseconds.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.SearchBoxSettings.InputSize">
@@ -5601,7 +5601,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.GridSettings.Responsive">
             <summary>
-            Allows the table to be scrolled horizontally with ease accross any breakpoint (adds the <c>table-responsive</c> class to the table).
+            Allows the table to be scrolled horizontally with ease across any breakpoint (adds the <c>table-responsive</c> class to the table).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.GridSettings.Hover">
@@ -5686,7 +5686,7 @@
             <summary>
             The order (display index) of the column.
             Columns are displayed in the order of this property.
-            Columns with the same value are displayed in the order of appereance in the code (when the columns are not conditionaly displayed using @if).
+            Columns with the same value are displayed in the order of appearance in the code (when the columns are not conditionally displayed using @if).
             </summary>
             <exception cref="T:System.ArgumentException">Value is <c>Int32.MinValue</c> or <c>Int32.MaxValue</c>.</exception>
         </member>
@@ -5751,7 +5751,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.DataProvider">
@@ -5946,7 +5946,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.Responsive">
             <summary>
-            Allows the table to be scrolled horizontally with ease accross any breakpoint (adds the <c>table-responsive</c> class to the table).<br/>
+            Allows the table to be scrolled horizontally with ease across any breakpoint (adds the <c>table-responsive</c> class to the table).<br/>
             Default is <c>false</c>.
             </summary>
         </member>
@@ -5975,7 +5975,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxGrid`1.#ctor">
@@ -6062,7 +6062,7 @@
             <summary>
             The order (display index) of the column.
             Columns are displayed in the order of this property.
-            Columns with the same value are displayed in the order of appereance in the code (when the columns are not conditionaly displayed using @if).
+            Columns with the same value are displayed in the order of appearance in the code (when the columns are not conditionally displayed using @if).
             </summary>
             <exception cref="T:System.ArgumentException">Value is <c>Int32.MinValue</c> or <c>Int32.MaxValue</c>.</exception>
         </member>
@@ -6133,7 +6133,7 @@
             Returns column sorting expression for automatic grid sorting.
             To be used for &quot;strongly typed&quot; setting of sorting, required for client-side sorting.
             Must be <see cref="T:System.IComparable"/>.
-            Sorting of the column does not support multiple expressions. Create an artifcial property and implement <see cref="T:System.IComparable"/>.
+            Sorting of the column does not support multiple expressions. Create an artificial property and implement <see cref="T:System.IComparable"/>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxGridColumn`1.SortDirection">
@@ -6222,7 +6222,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxGridColumnBase`1.IsColumnVisible">
             <summary>
             Indicates whether the column is visible (otherwise the column is hidden).
-            It is not suitable to conditionaly display the column using @if statement in the markup code.
+            It is not suitable to conditionally display the column using @if statement in the markup code.
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxGridColumnBase`1.GetColumnOrder">
@@ -6288,7 +6288,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxPager.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPager.Settings">
@@ -6301,7 +6301,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPager.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPager.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPager.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPager.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPager.TotalPages">
@@ -6373,15 +6373,15 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.IHxGridColumn`1.IsVisible">
             <summary>
             Indicates whether the column is visible (otherwise the column is hidden).
-            It is not suitable to conditionaly display the column using @if statement in the markup code.
+            It is not suitable to conditionally display the column using @if statement in the markup code.
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.IHxGridColumn`1.GetOrder">
             <summary>
             Get column order (for scenarios where column order can be modified).
             Default should be <c>0</c>.
-            When columns have same order they should render in the order of their registration (Which is usually the same as the column appereance in the source code.
-            But it differs when the column is displayed conditionaly using @if statement.).
+            When columns have same order they should render in the order of their registration (Which is usually the same as the column appearance in the source code.
+            But it differs when the column is displayed conditionally using @if statement.).
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.IHxGridColumn`1.GetSorting">
@@ -6594,7 +6594,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.GetDefaults">
             <summary>
             Returns <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxMessageBox"/> defaults.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.Settings">
@@ -6607,7 +6607,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxListLayout`1.InvokeFilterModelChangedAsync(`0)">
@@ -6647,7 +6647,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.ILayoutColumnComponent.Columns">
             <summary>
-            Number of template columns to span. Responsive setting for all devices including the extra-small ones (XS) bellow "small" breakpoint (<c>576px</c>).<br />
+            Number of template columns to span. Responsive setting for all devices including the extra-small ones (XS) below "small" breakpoint (<c>576px</c>).<br />
             The value can be any integer number between <c>1</c> and <c>12</c> (<c>.col-1</c>), <c>auto</c> (<c>.col-auto</c>) or <c>true</c> (<c>.col</c>).
             </summary>
         </member>
@@ -6902,7 +6902,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.DialogResult`1.Value">
             <summary>
-            The value of the sucessful result.
+            The value of the successful result.
             </summary>
             <exception cref="T:System.InvalidOperationException">When the dialog is not successful.</exception>
         </member>
@@ -6962,7 +6962,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxMessageBox.GetDefaults">
             <summary>
             Returns <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxMessageBox"/> defaults.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxMessageBox.Title">
@@ -7067,7 +7067,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxModal.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxModal.Settings">
@@ -7080,7 +7080,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxModal.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxModal.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxModal.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxModal.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxModal.Title">
@@ -7284,27 +7284,27 @@
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.ModalFullscreen.SmallDown">
             <summary>
-            Fullscreen for viewports bellow "small" breakpoint (<c>576px</c>).
+            Fullscreen for viewports below "small" breakpoint (<c>576px</c>).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.ModalFullscreen.MediumDown">
             <summary>
-            Fullscreen for viewports bellow "medium" breakpoint (<c>768px</c>).
+            Fullscreen for viewports below "medium" breakpoint (<c>768px</c>).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.ModalFullscreen.LargeDown">
             <summary>
-            Fullscreen for viewports bellow "large" breakpoint (<c>992px</c>).
+            Fullscreen for viewports below "large" breakpoint (<c>992px</c>).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.ModalFullscreen.ExtraLargeDown">
             <summary>
-            Fullscreen for viewports bellow "extra-large" breakpoint (<c>1200px</c>).
+            Fullscreen for viewports below "extra-large" breakpoint (<c>1200px</c>).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.ModalFullscreen.XxlDown">
             <summary>
-            Fullscreen for viewports bellow "XXL" breakpoint (<c>1400px</c>).
+            Fullscreen for viewports below "XXL" breakpoint (<c>1400px</c>).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.ModalSettings">
@@ -7433,8 +7433,8 @@
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.Full">
             <summary>
             Scrolls to anchor on <c>firstRender</c> and whenever location changes (<see cref="E:Microsoft.AspNetCore.Components.NavigationManager.LocationChanged"/>).
-            With <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxScrollspy"/> this mode is suitable only for static pages (where the size/offset of individual sections remains the same from the very beggining).
-            Use <see cref="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.SamePage"/> or <see cref="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.Manual"/> for when the page contents load asynchronnously and the layout changes.
+            With <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxScrollspy"/> this mode is suitable only for static pages (where the size/offset of individual sections remains the same from the very beginning).
+            Use <see cref="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.SamePage"/> or <see cref="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.Manual"/> for when the page contents load asynchronously and the layout changes.
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.AnchorFragmentNavigationAutomationMode.Manual">
@@ -7508,7 +7508,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxBreadcrumbItem.ChildContent">
             <summary>
-            Itme content.
+            Item content.
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.HxNav">
@@ -7582,7 +7582,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxNavbar.ContainerCssClass">
             <summary>
-            Container CSS class. Deafult is <c>container-fluid</c>.
+            Container CSS class. Default is <c>container-fluid</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxNavbar.ChildContent">
@@ -8058,32 +8058,32 @@
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.None">
             <summary>
-            Mobile mode disabled, allways render as sidebar.
+            Mobile mode disabled, always render as sidebar.
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.Small">
             <summary>
-            Mobile for viewports bellow "small" breakpoint (<c>576px</c>, exclusive).
+            Mobile for viewports below "small" breakpoint (<c>576px</c>, exclusive).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.Medium">
             <summary>
-            Mobile for viewports bellow "medium" breakpoint (<c>768px</c>, exclusive).
+            Mobile for viewports below "medium" breakpoint (<c>768px</c>, exclusive).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.Large">
             <summary>
-            Mobile for viewports bellow "large" breakpoint (<c>992px</c>, exclusive).
+            Mobile for viewports below "large" breakpoint (<c>992px</c>, exclusive).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.ExtraLarge">
             <summary>
-            Mobile for viewports bellow "extra-large" breakpoint (<c>1200px</c>, exclusive).
+            Mobile for viewports below "extra-large" breakpoint (<c>1200px</c>, exclusive).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.SidebarResponsiveBreakpoint.Xxl">
             <summary>
-            Mobile for viewports bellow "XXL" breakpoint (<c>1400px</c>, exclusive).
+            Mobile for viewports below "XXL" breakpoint (<c>1400px</c>, exclusive).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.SidebarTogglerTemplateContext">
@@ -8115,7 +8115,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.Settings">
@@ -8128,7 +8128,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxOffcanvas.Title">
@@ -8345,12 +8345,12 @@
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.OffcanvasResponsiveBreakpoint.ExtraLarge">
             <summary>
-            Render contents outside the viewport in an offcanvas when bellow "extra-large" breakpoint (<c>1200px</c>, exclusive).
+            Render contents outside the viewport in an offcanvas when below "extra-large" breakpoint (<c>1200px</c>, exclusive).
             </summary>
         </member>
         <member name="F:Havit.Blazor.Components.Web.Bootstrap.OffcanvasResponsiveBreakpoint.Xxl">
             <summary>
-            Render contents outside the viewport in an offcanvas when bellow "XXL" breakpoint (<c>1400px</c>, exclusive).
+            Render contents outside the viewport in an offcanvas when below "XXL" breakpoint (<c>1400px</c>, exclusive).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.OffcanvasSettings">
@@ -8438,7 +8438,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.Settings">
@@ -8451,7 +8451,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.Columns">
@@ -8484,7 +8484,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.ChildContent">
             <summary>
-            Optional content of the placeholder (usualy not used).
+            Optional content of the placeholder (usually not used).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholder.CssClass">
@@ -8536,7 +8536,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.Settings">
@@ -8549,7 +8549,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPlaceholderContainer.Animation">
@@ -8748,7 +8748,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.Settings">
@@ -8761,7 +8761,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.InProgress">
@@ -8771,7 +8771,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.Delay">
             <summary>
-            Debounce delay in miliseconds. Default is <c>300 ms</c>.
+            Debounce delay in milliseconds. Default is <c>300 ms</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxProgressIndicator.ChildContent">
@@ -8812,7 +8812,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.ProgressIndicatorSettings.Delay">
             <summary>
-            Debounce delay in miliseconds.
+            Debounce delay in milliseconds.
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.SpinnerSize">
@@ -8894,7 +8894,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxTab.OnTabActivated">
             <summary>
-            Rised when the tab is activated.
+            Raised when the tab is activated.
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxTab.InvokeOnTabActivatedAsync">
@@ -8904,7 +8904,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxTab.OnTabDeactivated">
             <summary>
-            Rised when the tab is deactivated (another tab is activates or when <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxTabPanel"/> is disposed).
+            Raised when the tab is deactivated (another tab is activates or when <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxTabPanel"/> is disposed).
             </summary>
         </member>
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxTab.InvokeOnTabDeactivatedAsync">
@@ -9003,7 +9003,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.Settings">
@@ -9016,7 +9016,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.AllowCustomTags">
@@ -9037,7 +9037,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.SuggestDelay">
             <summary>
-            Debounce delay in miliseconds. Default is <c>300 ms</c>.
+            Debounce delay in milliseconds. Default is <c>300 ms</c>.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxInputTags.Delimiters">
@@ -9167,7 +9167,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.InputTagsSettings.SuggestDelay">
             <summary>
-            Debounce delay in miliseconds.
+            Debounce delay in milliseconds.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.InputTagsSettings.InputSize">
@@ -9269,7 +9269,7 @@
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.HxToast">
             <summary>
-            <see href="https://getbootstrap.com/docs/5.2/components/toasts/">Bootstrap Toast</see> component. Not intented to be used in user code, use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxMessenger"/>.
+            <see href="https://getbootstrap.com/docs/5.2/components/toasts/">Bootstrap Toast</see> component. Not intended to be used in user code, use <see cref="T:Havit.Blazor.Components.Web.Bootstrap.HxMessenger"/>.
             After first render component never updates.<br />
             Full documentation and demos: <see href="https://havit.blazor.eu/components/HxToast">https://havit.blazor.eu/components/HxToast</see>
             </summary>
@@ -9286,7 +9286,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxToast.AutohideDelay">
             <summary>
-            Delay in miliseconds to automatically hide toast.
+            Delay in milliseconds to automatically hide toast.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxToast.CssClass">
@@ -9375,7 +9375,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.MessengerServiceExtensionsSettings.InformationAutohideDelay">
             <summary>
-            Default autohide delay for information (in miliseconds). Default is <c>5000</c> ms.
+            Default autohide delay for information (in milliseconds). Default is <c>5000</c> ms.
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.MessengerServiceExtensionsSettings.WarningColor">
@@ -9385,7 +9385,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.MessengerServiceExtensionsSettings.WarningAutohideDelay">
             <summary>
-            Default autohide delay for warnings (in miliseconds). Default is <c>null</c> (do not autohide).
+            Default autohide delay for warnings (in milliseconds). Default is <c>null</c> (do not autohide).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.MessengerServiceExtensionsSettings.ErrorColor">
@@ -9395,7 +9395,7 @@
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.MessengerServiceExtensionsSettings.ErrorAutohideDelay">
             <summary>
-            Default autohide delay for errors (in miliseconds). Default is <c>null</c> (do not autohide).
+            Default autohide delay for errors (in milliseconds). Default is <c>null</c> (do not autohide).
             </summary>
         </member>
         <member name="T:Havit.Blazor.Components.Web.Bootstrap.HxPopover">
@@ -9413,7 +9413,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxPopover.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPopover.Settings">
@@ -9426,7 +9426,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPopover.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPopover.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxPopover.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxPopover.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxPopover.Title">
@@ -9464,7 +9464,7 @@
         <member name="M:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.GetDefaults">
             <summary>
             Returns application-wide defaults for the component.
-            Enables overriding defaults in descandants (use separate set of defaults).
+            Enables overriding defaults in descendants (use separate set of defaults).
             </summary>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.Settings">
@@ -9477,7 +9477,7 @@
             Returns optional set of component settings.
             </summary>
             <remarks>
-            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.Settings"/> in components descandants (by returning a derived settings class).
+            Similar to <see cref="M:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.GetDefaults"/>, enables defining wider <see cref="P:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.Settings"/> in components descendants (by returning a derived settings class).
             </remarks>
         </member>
         <member name="P:Havit.Blazor.Components.Web.Bootstrap.HxTooltip.Text">

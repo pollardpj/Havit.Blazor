@@ -23,7 +23,7 @@ public partial class HxPlaceholder : ILayoutColumnComponent
 
 	/// <summary>
 	/// Returns application-wide defaults for the component.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual PlaceholderSettings GetDefaults() => Defaults;
 
@@ -36,7 +36,7 @@ public partial class HxPlaceholder : ILayoutColumnComponent
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual PlaceholderSettings GetSettings() => this.Settings;
 
@@ -72,7 +72,7 @@ public partial class HxPlaceholder : ILayoutColumnComponent
 	protected ThemeColor ColorEffective => this.Color ?? this.GetSettings()?.Color ?? PlaceholderContainer?.Color ?? GetDefaults().Color ?? throw new InvalidOperationException(nameof(Color) + " default for " + nameof(HxPlaceholder) + " has to be set.");
 
 	/// <summary>
-	/// Optional content of the placeholder (usualy not used).
+	/// Optional content of the placeholder (usually not used).
 	/// </summary>
 	[Parameter] public RenderFragment ChildContent { get; set; }
 

@@ -16,7 +16,7 @@ public class HxGoogleTagManagerOptions
 	public string PageViewEventName { get; set; } = "virtualPageView";
 
 	/// <summary>
-	/// Name of the variabel to be used for URL when page-view is tracked.
+	/// Name of the variable to be used for URL when page-view is tracked.
 	/// </summary>
 	public string PageViewUrlVariableName { get; set; } = "pageUrl";
 }

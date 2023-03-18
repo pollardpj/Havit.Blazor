@@ -4,7 +4,7 @@
     <HxToastContainer Position="this.Position" CssClass="@this.CssClass">
         @foreach (MessengerMessage message in messages)
         {
-            // @key is used to pair messages to HxToasts when some message disappers.
+            // @key is used to pair messages to HxToasts when some message disappears.
             <HxToast @key="@message.Key"
                  Color="@((message as BootstrapMessengerMessage)?.Color)"
                  CssClass="@message.CssClass"

@@ -5,7 +5,7 @@
 /// </summary>
 public partial class HxAccordionItem : ComponentBase
 {
-	[CascadingParameter] protected HxAccordion ParentAccordition { get; set; }
+	[CascadingParameter] protected HxAccordion ParentAccordion { get; set; }
 
 	/// <summary>
 	/// Clickable header (always visible).
@@ -68,7 +68,7 @@ public partial class HxAccordionItem : ComponentBase
 	{
 		await base.OnParametersSetAsync();
 
-		Contract.Requires<InvalidOperationException>(ParentAccordition is not null, "<HxAccordionItem /> has to be placed inside <HxAccordition />.");
+		Contract.Requires<InvalidOperationException>(ParentAccordion is not null, "<HxAccordionItem /> has to be placed inside <HxAccordion />.");
 
 		// Issue #182
 		// If the accordion items change dynamically, the instances of HxAccordionItem get completely different parameters.
@@ -86,7 +86,7 @@ public partial class HxAccordionItem : ComponentBase
 			currentId = this.Id;
 		}
 
-		idEffective = ParentAccordition.Id + "-" + this.Id;
+		idEffective = ParentAccordion.Id + "-" + this.Id;
 
 		if (isInitialized)
 		{
@@ -96,7 +96,7 @@ public partial class HxAccordionItem : ComponentBase
 				{
 					await ExpandAsync();
 				}
-				else if (lastKnownStateIsExpanded && String.IsNullOrEmpty(ParentAccordition.ExpandedItemId))
+				else if (lastKnownStateIsExpanded && String.IsNullOrEmpty(ParentAccordion.ExpandedItemId))
 				{
 					await CollapseAsync();
 				}
@@ -139,7 +139,7 @@ public partial class HxAccordionItem : ComponentBase
 		lastKnownStateIsExpanded = true;
 		isInTransition = false;
 
-		await ParentAccordition.SetItemExpandedAsync(this.Id);
+		await ParentAccordion.SetItemExpandedAsync(this.Id);
 
 		await InvokeOnExpandedAsync(this.Id);
 	}
@@ -149,10 +149,10 @@ public partial class HxAccordionItem : ComponentBase
 		lastKnownStateIsExpanded = false;
 		isInTransition = false;
 
-		await ParentAccordition.SetItemCollapsedAsync(this.Id);
+		await ParentAccordion.SetItemCollapsedAsync(this.Id);
 
 		await InvokeOnCollapsedAsync(this.Id);
 	}
 
-	private bool IsSetToBeExpanded() => ParentAccordition.ExpandedItemIds.Contains(this.Id);
+	private bool IsSetToBeExpanded() => ParentAccordion.ExpandedItemIds.Contains(this.Id);
 }

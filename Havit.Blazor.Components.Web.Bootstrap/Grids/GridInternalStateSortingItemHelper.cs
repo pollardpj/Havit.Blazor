@@ -33,7 +33,7 @@ internal static class GridInternalStateSortingItemHelper
 			}
 			else
 			{
-				// If there is a sorting with another "first" sort column, remove the newSortingColumn from the following possition.
+				// If there is a sorting with another "first" sort column, remove the newSortingColumn from the following position.
 				// Create a new sorting with the column "in the front".
 				newSorting = new List<GridInternalStateSortingItem<TItem>>(currentSorting);
 				newSorting.RemoveAll(item => item.Column == newSortColumn);

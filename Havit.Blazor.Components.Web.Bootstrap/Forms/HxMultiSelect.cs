@@ -12,7 +12,7 @@ public class HxMultiSelect<TValue, TItem> : HxInputBase<List<TValue>>, IInputWit
 {
 	/// <summary>
 	/// Return <see cref="HxMultiSelect{TValue, TItem}"/> defaults.
-	/// Enables to not share defaults in descandants with base classes.
+	/// Enables to not share defaults in descendants with base classes.
 	/// Enables to have multiple descendants which differs in the default values.
 	/// </summary>
 	protected override MultiSelectSettings GetDefaults() => HxMultiSelect.Defaults;
@@ -26,7 +26,7 @@ public class HxMultiSelect<TValue, TItem> : HxInputBase<List<TValue>>, IInputWit
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected override MultiSelectSettings GetSettings() => this.Settings;
 
@@ -215,7 +215,7 @@ public class HxMultiSelect<TValue, TItem> : HxInputBase<List<TValue>>, IInputWit
 	protected override string FormatValueAsString(List<TValue> value)
 	{
 		// Used for CurrentValueAsString (which is used for the input element and for the chip generator).
-		// Thats why we do not use NullDataText here.
+		// That's why we do not use NullDataText here.
 
 		if ((!value?.Any() ?? true) || (Data == null))
 		{

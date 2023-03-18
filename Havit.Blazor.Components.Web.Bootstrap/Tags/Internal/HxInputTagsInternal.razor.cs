@@ -297,13 +297,13 @@ public partial class HxInputTagsInternal
 
 	private async Task UpdateSuggestionsAsync(bool bypassShow = false)
 	{
-		// Cancelation is performed in HandleInputInput method
+		// Cancellation is performed in HandleInputInput method
 		cancellationTokenSource?.Dispose();
 
 		cancellationTokenSource = new CancellationTokenSource();
 		CancellationToken cancellationToken = cancellationTokenSource.Token;
 
-		// TODO Do we want spinnner? Configurable?
+		// TODO Do we want spinner? Configurable?
 		//dataProviderInProgress = true;
 		//StateHasChanged();
 

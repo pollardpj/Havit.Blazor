@@ -32,7 +32,7 @@ public class HxInputNumber<TValue> : HxInputBaseWithInputGroups<TValue>, IInputW
 
 	/// <summary>
 	/// Returns application-wide defaults for the component.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected override InputNumberSettings GetDefaults() => HxInputNumber.Defaults;
 
@@ -45,7 +45,7 @@ public class HxInputNumber<TValue> : HxInputBaseWithInputGroups<TValue>, IInputW
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected override InputNumberSettings GetSettings() => this.Settings;
 
@@ -122,15 +122,15 @@ public class HxInputNumber<TValue> : HxInputBaseWithInputGroups<TValue>, IInputW
 	{
 		get
 		{
-			Type undelyingType = Nullable.GetUnderlyingType(typeof(TValue)) ?? typeof(TValue);
-			return (undelyingType == typeof(byte))
-				|| (undelyingType == typeof(sbyte))
-				|| (undelyingType == typeof(short))
-				|| (undelyingType == typeof(ushort))
-				|| (undelyingType == typeof(int))
-				|| (undelyingType == typeof(uint))
-				|| (undelyingType == typeof(long))
-				|| (undelyingType == typeof(ulong));
+			Type underlyingType = Nullable.GetUnderlyingType(typeof(TValue)) ?? typeof(TValue);
+			return (underlyingType == typeof(byte))
+				|| (underlyingType == typeof(sbyte))
+				|| (underlyingType == typeof(short))
+				|| (underlyingType == typeof(ushort))
+				|| (underlyingType == typeof(int))
+				|| (underlyingType == typeof(uint))
+				|| (underlyingType == typeof(long))
+				|| (underlyingType == typeof(ulong));
 		}
 	}
 
@@ -139,8 +139,8 @@ public class HxInputNumber<TValue> : HxInputBaseWithInputGroups<TValue>, IInputW
 	/// </summary>
 	public HxInputNumber()
 	{
-		Type undelyingType = Nullable.GetUnderlyingType(typeof(TValue)) ?? typeof(TValue);
-		if (!supportedTypes.Contains(undelyingType))
+		Type underlyingType = Nullable.GetUnderlyingType(typeof(TValue)) ?? typeof(TValue);
+		if (!supportedTypes.Contains(underlyingType))
 		{
 			throw new InvalidOperationException($"Unsupported type {typeof(TValue)}.");
 		}
@@ -186,7 +186,7 @@ public class HxInputNumber<TValue> : HxInputBaseWithInputGroups<TValue>, IInputW
 			}
 			builder.AddAttribute(1006 + valueSequenceOffset, "value", FormatValueAsString(Value));
 		}
-		builder.AddElementReferenceCapture(Int32.MaxValue, elementReferece => InputElement = elementReferece);
+		builder.AddElementReferenceCapture(Int32.MaxValue, elementReference => InputElement = elementReference);
 
 		builder.CloseElement();
 	}

@@ -5,7 +5,7 @@ using Grpc.Core;
 namespace Havit.Blazor.Grpc.Server.GlobalizationLocalization;
 
 /// <summary>
-/// gRPC Service (server-side) interceptor which looks for <c>hx-sulture</c> request header and uses the value (if found)
+/// gRPC Service (server-side) interceptor which looks for <c>hx-culture</c> request header and uses the value (if found)
 /// for setting <see cref="Thread.CurrentCulture"/> and <see cref="Thread.CurrentUICulture"/>.
 /// </summary>
 public class GlobalizationLocalizationGrpcServerInterceptor : Interceptor   // DI SINGLETON !!

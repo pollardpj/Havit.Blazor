@@ -16,27 +16,27 @@ public enum ModalFullscreen
 	Always = 1,
 
 	/// <summary>
-	/// Fullscreen for viewports bellow "small" breakpoint (<c>576px</c>).
+	/// Fullscreen for viewports below "small" breakpoint (<c>576px</c>).
 	/// </summary>
 	SmallDown = 2,
 
 	/// <summary>
-	/// Fullscreen for viewports bellow "medium" breakpoint (<c>768px</c>).
+	/// Fullscreen for viewports below "medium" breakpoint (<c>768px</c>).
 	/// </summary>
 	MediumDown = 3,
 
 	/// <summary>
-	/// Fullscreen for viewports bellow "large" breakpoint (<c>992px</c>).
+	/// Fullscreen for viewports below "large" breakpoint (<c>992px</c>).
 	/// </summary>
 	LargeDown = 4,
 
 	/// <summary>
-	/// Fullscreen for viewports bellow "extra-large" breakpoint (<c>1200px</c>).
+	/// Fullscreen for viewports below "extra-large" breakpoint (<c>1200px</c>).
 	/// </summary>
 	ExtraLargeDown = 5,
 
 	/// <summary>
-	/// Fullscreen for viewports bellow "XXL" breakpoint (<c>1400px</c>).
+	/// Fullscreen for viewports below "XXL" breakpoint (<c>1400px</c>).
 	/// </summary>
 	XxlDown = 6,
 }

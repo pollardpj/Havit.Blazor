@@ -2,7 +2,7 @@
 
 /// <summary>
 /// Presents a list of chips as badges.<br/>
-/// Usualy being used to present filter-criteria gathered by <see cref="HxFilterForm{TModel}"/>.<br />
+/// Usually being used to present filter-criteria gathered by <see cref="HxFilterForm{TModel}"/>.<br />
 /// Full documentation and demos: <see href="https://havit.blazor.eu/components/HxChipList">https://havit.blazor.eu/components/HxChipList</see>
 /// </summary>
 public partial class HxChipList
@@ -25,7 +25,7 @@ public partial class HxChipList
 
 	/// <summary>
 	/// Returns application-wide defaults for the component.
-	/// Enables overriding defaults in descandants (use separate set of defaults).
+	/// Enables overriding defaults in descendants (use separate set of defaults).
 	/// </summary>
 	protected virtual ChipListSettings GetDefaults() => Defaults;
 
@@ -38,7 +38,7 @@ public partial class HxChipList
 	/// Returns optional set of component settings.
 	/// </summary>
 	/// <remarks>
-	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descandants (by returning a derived settings class).
+	/// Similar to <see cref="GetDefaults"/>, enables defining wider <see cref="Settings"/> in components descendants (by returning a derived settings class).
 	/// </remarks>
 	protected virtual ChipListSettings GetSettings() => this.Settings;
 

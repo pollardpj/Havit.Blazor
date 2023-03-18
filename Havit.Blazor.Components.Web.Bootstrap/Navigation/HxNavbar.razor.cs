@@ -37,7 +37,7 @@ public partial class HxNavbar
 	[Parameter] public string CssClass { get; set; }
 
 	/// <summary>
-	/// Container CSS class. Deafult is <c>container-fluid</c>.
+	/// Container CSS class. Default is <c>container-fluid</c>.
 	/// </summary>
 	[Parameter] public string ContainerCssClass { get; set; } = "container-fluid";
 
@@ -62,7 +62,7 @@ public partial class HxNavbar
 			NavbarExpand.ExtraLargeUp => "navbar-expand-xl",
 			NavbarExpand.XxlUp => "navbar-expand-xxl",
 			NavbarExpand.Never => null,
-			_ => throw new InvalidOperationException($"Unknow {nameof(NavbarExpand)} value {this.Expand}.")
+			_ => throw new InvalidOperationException($"Unknown {nameof(NavbarExpand)} value {this.Expand}.")
 		};
 	}
 
@@ -73,7 +73,7 @@ public partial class HxNavbar
 			NavbarColorScheme.Light => "navbar-light",
 			NavbarColorScheme.Dark => "navbar-dark",
 			NavbarColorScheme.None => null,
-			_ => throw new InvalidOperationException($"Unknow {nameof(NavbarColorScheme)} value {this.ColorScheme}.")
+			_ => throw new InvalidOperationException($"Unknown {nameof(NavbarColorScheme)} value {this.ColorScheme}.")
 		};
 	}
 
